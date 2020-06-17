@@ -1,0 +1,59 @@
+# uclust --input /tmp/UclustExactMatchFilterM_Jf8Q.fasta --id 0.97 --tmpdir /tmp --w 12 --stepwords 20 --usersort --maxaccepts 20 --stable_sort --maxrejects 500 --uc plugins/UClust/example/output/HMP_MOCK.v35_clusters.uc
+# version=1.2.22
+# Tab-separated fields:
+# 1=Type, 2=ClusterNr, 3=SeqLength or ClusterSize, 4=PctId, 5=Strand, 6=QueryStart, 7=SeedStart, 8=Alignment, 9=QueryLabel, 10=TargetLabel
+# Record types (field 1): L=LibSeed, S=NewSeed, H=Hit, R=Reject, D=LibCluster, C=NewCluster, N=NoHit
+# For C and D types, PctId is average id with seed.
+# QueryStart and SeedStart are zero-based relative to start of sequence.
+# If minus strand, SeedStart is relative to reverse-complemented seed.
+S	0	541	*	*	*	*	*	QiimeExactMatch.E.faecalis.1	*
+S	1	524	*	*	*	*	*	QiimeExactMatch.D.radiodurans.1	*
+S	2	540	*	*	*	*	*	QiimeExactMatch.N.meningitidis.1	*
+S	3	514	*	*	*	*	*	QiimeExactMatch.R.sphaeroides.1	*
+S	4	541	*	*	*	*	*	QiimeExactMatch.A.baumannii.1	*
+S	5	540	*	*	*	*	*	QiimeExactMatch.P.aeruginosa.1	*
+H	5	540	99.8	+	0	0	540M	QiimeExactMatch.P.aeruginosa.2	QiimeExactMatch.P.aeruginosa.1
+S	6	515	*	*	*	*	*	QiimeExactMatch.C.beijerinckii.4	*
+H	6	515	99.6	+	0	0	515M	QiimeExactMatch.C.beijerinckii.3	QiimeExactMatch.C.beijerinckii.4
+H	6	515	99.8	+	0	0	515M	QiimeExactMatch.C.beijerinckii.1	QiimeExactMatch.C.beijerinckii.4
+S	7	522	*	*	*	*	*	QiimeExactMatch.P.acnes.1	*
+S	8	540	*	*	*	*	*	QiimeExactMatch.E.coli.1	*
+S	9	534	*	*	*	*	*	QiimeExactMatch.A.odontolyticus.1	*
+S	10	532	*	*	*	*	*	QiimeExactMatch.B.vulgatus.1	*
+S	11	534	*	*	*	*	*	QiimeExactMatch.P.gingivalis.1	*
+H	10	532	99.2	+	0	0	532M	QiimeExactMatch.B.vulgatus.5	QiimeExactMatch.B.vulgatus.1
+H	10	532	99.4	+	0	0	532M	QiimeExactMatch.B.vulgatus.2	QiimeExactMatch.B.vulgatus.1
+H	10	532	99.1	+	0	0	532M	QiimeExactMatch.B.vulgatus.4	QiimeExactMatch.B.vulgatus.1
+H	10	532	99.1	+	0	0	532M	QiimeExactMatch.B.vulgatus.7	QiimeExactMatch.B.vulgatus.1
+S	12	541	*	*	*	*	*	QiimeExactMatch.S.agalactiae.1	*
+S	13	541	*	*	*	*	*	QiimeExactMatch.S.pneumoniae.1	*
+S	14	541	*	*	*	*	*	QiimeExactMatch.S.mutans.1	*
+S	15	541	*	*	*	*	*	QiimeExactMatch.S.epidermidis.2	*
+H	15	541	98.9	+	0	0	541M	QiimeExactMatch.S.epidermidis.5	QiimeExactMatch.S.epidermidis.2
+H	15	541	99.1	+	0	0	541M	QiimeExactMatch.S.aureus.5	QiimeExactMatch.S.epidermidis.2
+H	15	541	99.3	+	0	0	541M	QiimeExactMatch.S.aureus.1	QiimeExactMatch.S.epidermidis.2
+H	15	541	99.8	+	0	0	541M	QiimeExactMatch.S.epidermidis.1	QiimeExactMatch.S.epidermidis.2
+S	16	541	*	*	*	*	*	QiimeExactMatch.L.monocytogenes.1	*
+S	17	542	*	*	*	*	*	QiimeExactMatch.B.cereus.1	*
+S	18	541	*	*	*	*	*	QiimeExactMatch.L.gasseri.1	*
+S	19	517	*	*	*	*	*	QiimeExactMatch.H.pylori.1	*
+C	0	1	*	*	*	*	*	QiimeExactMatch.E.faecalis.1	*
+C	1	1	*	*	*	*	*	QiimeExactMatch.D.radiodurans.1	*
+C	2	1	*	*	*	*	*	QiimeExactMatch.N.meningitidis.1	*
+C	3	1	*	*	*	*	*	QiimeExactMatch.R.sphaeroides.1	*
+C	4	1	*	*	*	*	*	QiimeExactMatch.A.baumannii.1	*
+C	5	2	99.8	*	*	*	*	QiimeExactMatch.P.aeruginosa.1	*
+C	6	3	99.7	*	*	*	*	QiimeExactMatch.C.beijerinckii.4	*
+C	7	1	*	*	*	*	*	QiimeExactMatch.P.acnes.1	*
+C	8	1	*	*	*	*	*	QiimeExactMatch.E.coli.1	*
+C	9	1	*	*	*	*	*	QiimeExactMatch.A.odontolyticus.1	*
+C	10	5	99.2	*	*	*	*	QiimeExactMatch.B.vulgatus.1	*
+C	11	1	*	*	*	*	*	QiimeExactMatch.P.gingivalis.1	*
+C	12	1	*	*	*	*	*	QiimeExactMatch.S.agalactiae.1	*
+C	13	1	*	*	*	*	*	QiimeExactMatch.S.pneumoniae.1	*
+C	14	1	*	*	*	*	*	QiimeExactMatch.S.mutans.1	*
+C	15	5	99.3	*	*	*	*	QiimeExactMatch.S.epidermidis.2	*
+C	16	1	*	*	*	*	*	QiimeExactMatch.L.monocytogenes.1	*
+C	17	1	*	*	*	*	*	QiimeExactMatch.B.cereus.1	*
+C	18	1	*	*	*	*	*	QiimeExactMatch.L.gasseri.1	*
+C	19	1	*	*	*	*	*	QiimeExactMatch.H.pylori.1	*

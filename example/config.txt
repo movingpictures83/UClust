@@ -1,0 +1,2 @@
+Prefix plugins/UClust/example
+Plugin UClust inputfile HMP_MOCK.v35.fasta outputfile output
